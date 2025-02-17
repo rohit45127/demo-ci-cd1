@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo yum install httpd -y
-sudo service start httpd
+sudo service httpd start
+sudo chkconfig on
